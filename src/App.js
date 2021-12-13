@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
+import TodoList from "./todos/TodoList";
 import { hot } from "react-hot-loader";
 
 const App = () => {
 	return (
 		<div>
-			<h1>Hello Mars!!!!</h1>
+			<TodoList />
 		</div>
 	);
 };
